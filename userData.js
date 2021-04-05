@@ -1,0 +1,45 @@
+export const userData= [{
+    "id":1,
+    "email":"test@gmail.com",
+    "password":"1234567",
+    "name":"test"
+},
+{
+    "id":2,
+    "email":"abc@gmail.com",
+    "password":"1234567",
+    "name":"abc"
+},
+{
+    "id":2,
+    "email":"xyz@gmail.com",
+    "password":"1234567",
+    "name":"xyz"
+},
+{
+    "id":3,
+    "email":"mike@gmail.com",
+    "password":"1234567",
+    "name":"mike"
+},
+{
+    "id":4,
+    "email":"john@gmail.com",
+    "password":"1234567",
+    "name":"john"
+},
+{
+    "id":5,
+    "email":"roy@gmail.com",
+    "password":"1234567",
+    "name":"roy"
+},
+{
+    "id":6,
+    "email":"tyson@gmail.com",
+    "password":"1234567",
+    "name":"tyson"
+}
+
+
+]

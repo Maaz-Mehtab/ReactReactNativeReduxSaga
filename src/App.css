@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.green {
+  background-color: #128c7e;
+  position: absolute;
+  height: 300px;
+}
+
+.green h1 {
+  color: white;
+  margin-top: 5%;
+}
+
+.green p {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 12px;
+  font-family: "Poppins";
+  color: black;
+}
+
+b {
+  color: #ffb529;
+}
+
+form {
+  width: 400px;
+}
+
+input::placeholder {
+  font-size: 12px;
+  font-family: "Poppins";
+  color: rgb(59, 59, 59);
+}
+
+.forget-pwd {
+  text-decoration: none;
+  color: rgb(62, 62, 62);
+  font-family: "Poppins";
+  font-size: 12px;
+}
+
+.forget-pwd:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.panel-default {
+  padding: 20% 30% 0 30%;
+}
+
+.sign-in-btn {
+  margin-top: 15px;
+}
+
+.panel-body {
+  padding: 8% 5%;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  border: 2px dotted #128c7e;
+}
+
+.input-group input {
+  border: lightgrey solid 1px;
+  filter: drop-shadow(5px 10px 4px #eeeeee);
+}
+
+.dnt-have-account {
+  font-size: 12px;
+  font-family: "Poppins";
+  color: rgb(59, 59, 59);
+  font-weight: lighter;
+}
+
+.register-btn {
+  background-color: #ffb529;
+  color: black;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Poppins";
+  letter-spacing: 1px;
+}
+
+.sign-in-btn {
+  background-color: #128c7e;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Poppins";
+  letter-spacing: 1px;
+}
+
+.sign-in-btn:hover {
+  background-color: #128c7e;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  font-family: "Poppins";
+  letter-spacing: 1px;
+}
+
+.register-btn:hover {
+  background-color: #ffb529;
+  color: black;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Poppins";
+  letter-spacing: 1px;
+}
+
+.signin-btn {
+  color: #ffb529;
+  font-weight: bold;
+}
+
+.logout-btn {
+  background: rgba(255, 255, 255);
+  border-radius: 3px;
+  color: #fff;
+  padding: 1px;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  z-index: 2;
+}
+
+.signout-btn {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+  border-radius: 4px;
+  border-width: 0px;
+  background-color: rgb(18, 140, 126);
+  font-size: 12px;
+  color:#fff
+}
